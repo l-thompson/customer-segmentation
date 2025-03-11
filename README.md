@@ -2,7 +2,7 @@
 
 This project demonstrates customer segmentation using unsupervised machine learning (K-Means clustering) on the Mall Customers dataset. It includes advanced visualizations with Plotly and feature importance analysis using SHAP (SHapley Additive exPlanations), showcasing a full data science pipeline from preprocessing to interpretation.
 
-## 📜 Project Overview
+## Project Overview
 
 The goal of this project is to segment customers into distinct groups based on their demographic and behavioral data (Age, Annual Income, and Spending Score). The project uses K-Means clustering to identify 5 customer segments, visualizes the results in an interactive 3D scatter plot, and interprets the clustering decisions using SHAP to understand which features drive the segmentation.
 
@@ -31,7 +31,7 @@ The dataset (`Mall_Customers.csv`) contains 200 customer records with the follow
 
 **Note**: The `Gender` column is not used in clustering but could be analyzed post-clustering for deeper insights.
 
-## 📈 Results
+## Results
 
 ### Cluster Centers
 The K-Means algorithm identified 5 distinct customer segments:
@@ -45,7 +45,7 @@ The K-Means algorithm identified 5 distinct customer segments:
 - **3D Scatter Plot**: An interactive 3D scatter plot (`customer_segmentation_3d.html`) shows the customer segments in PCA-reduced space.
 - **SHAP Bar Plot**: A bar plot displays the average feature importance for Cluster 0, highlighting which features (e.g., Spending Score) most influence cluster assignment.
 
-## 🛠️ Setup
+## Setup
 
 ### Prerequisites
 - Python 3.7 or higher
