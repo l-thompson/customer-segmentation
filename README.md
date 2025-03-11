@@ -20,7 +20,7 @@ The goal of this project is to segment customers into distinct groups based on t
 - **Matplotlib**: For static bar plots.
 - **pandas & numpy**: For data manipulation.
 
-## 📊 Dataset
+## Dataset
 
 The dataset (`Mall_Customers.csv`) contains 200 customer records with the following columns:
 - `CustomerID`: Unique identifier for each customer.
